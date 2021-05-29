@@ -1,0 +1,11 @@
+package latihan01;
+public abstract class Vehicle {
+    public void fungtion(){
+        System.out.println("Transportation Tools");
+    }
+    public void fuel(){
+        System.out.println("Fuels");
+    }
+    public abstract void walk();
+}
+    
